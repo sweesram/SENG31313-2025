@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolih</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars"onclass="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Analyst</p>
+                <h1>Hi, I'm <span>Sweeskaran</span> <br>from Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+    <!--------about me-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images_folder/prof_img.jpg" alt="" style="height: 100%;width: 100%;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Ramachandran Sweeskaran from Sri Lanka, currently pursuing my undergraduate studies at the University of Kelaniya. I am passionate about becoming a professional Data Analyst.</p>
+
+                    <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links " onclick="opentab('experience')">Experience</p> 
+                    <p class="tab-links " onclick="opentab('education')">Education</p>  
+                    </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Problem Solving</span><br>Analyze situations, identify issues, think critically, and implement effective solutions quickly.</li>
+                        <li><span>Leader Ship</span><br>I was the former vice secretary of Tamil students' Association in university of kelaniya. At the same time i participate most events as leader.</li>
+                        <li><span>Communication Skills</span><br>Express ideas clearly, listen actively, adapt messages, and build strong connections.</li>
+                    </ul>
+                </div>
+            <!--<div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>WebDevelopment</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Build</li>
+                </ul>
+            </div>-->
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Unser Graduate</span><br>Bsc(Hons) in soft ware engineering(R).</li>
+                    <li><span>GCE/A/L</span><br>Got 2AB in 2021. and my z score is 1.752</li>
+                    <li class="certificates-item">
+                        <span>Professional Certificates</span><br>
+                        I got some professional certificates in my software engineering path.
+                        <div class="certificates">
+                            <div class="certificate1">
+                                <p>I got the certificate in Alison for data analysts.</p>
+                                <img src="Images_folder/Alision_certificate.png" alt="Alison Certificate">
+                            </div>
+                            <div class="certificate1">
+                                <p>I got the certificate in SoloLearn for data analysts.</p>
+                                <img src="Images_folder/Data_science_solo learn.jpg" alt="SoloLearn Certificate">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Services----------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p> Designing the responsive projects.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop"></i>
+                <h2>Data Analyst</h2>
+                <p> Analyzing the given records by customer according to their requirements.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Roadmap For Begginers</h2>
+                <p> Give the clear roadmap for begginers in dataanalyst and other some fields in Software engineering. practical way guidence from my personal experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <!----------------Portfolioh------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images_folder/DataAnalyst img5 .avif" alt="">
+                <div class="layer">
+                    <h3>Analyzed Projects</h3>
+                    <p> Projects related analyze the previous records from customer.</p>
+                    <a href="https://medium.com/p/2f9b0cb56891/edit"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="Images_folder/DataAnalyst img4.avif" alt="">
+                    <div class="layer">
+                    <h3>Restaurent Website</h3>
+                    <p>Responsive website for flovour hub Restaurant</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images_folder/Fuel_station_img.jpg" alt="">
+                    <div class="layer">
+                    <h3>Fuel Station Project </h3>
+                    <p>Responsive App for fuelstation. which has been access by fuelstation and employees. it makes easier to customer and fuelstations.</p>
+                    <a href="https://github.com/Kirisi15/Fuel_Station"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images_folder/Guidence_image.avif" alt="">
+                    <div class="layer">
+                    <h3>Projects Guidence For Begginers</h3>
+                    <p> Clear guidence for freshers in data science fields.</p>
+                    <a href="https://medium.com/me/stories/drafts"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button-container">
+            <a href="#" class="btn">See more</a>
+        </div>
+        </div>
+</div>
+<!---------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>  sweeskaran@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>  0768700530</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1Bwad9FBGX/?mibextid=qi2Omg"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/ramachandran-sweeskaran-6318b3286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="Images_folder/Mycv.png" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/xanoqqkv" method="POST">
+                    <input type="text" name="Name" placeholder=" Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+         </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright &copy; Swees. Made with<i class="fas fa-heart"></i>by Ramachandran Sweeskaran </p>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
